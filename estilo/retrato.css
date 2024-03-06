@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+main {
+    background-color: lightblue;
+    width: 100vw;
+}
+main h1 {
+    padding: 30px;
+}
+main form {
+    background-color: rgba(0, 0, 255, 0.288);
+    border-radius: 10px;
+}

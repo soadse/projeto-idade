@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link rel="stylesheet" href="estilo/retrato.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="estilo/paisagem.css" media="screen and (orientation: landscape)">
+</head>
+<body>
+    <main>
+        <h1>Programa para descobrir a idade</h1>
+        <form action="#" method="get" autocomplete="on">
+            <p>
+                <label for="iano">Em qual ano você nasceu?</label><br>
+                <input type="number" name="ano" id="iano" min="1900" max="2024" oninput="iidade.innerHTML = Number(2024 - iano.value)">
+            </p>
+            <p>
+                <label for="iidade">Você tem ou tera .....</label>
+                <output id="iidade"></output>
+                <label for="iidade">este ano!</label>
+            </p>
+        </form>
+    </main>
+
+</body>
+</html>
