@@ -14,19 +14,17 @@ main {
 }
 main > h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
 }
 main form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    line-height: 2em;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     backdrop-filter: blur(10px);
-    padding: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
 }
 form > p > input{
     margin: 50px;

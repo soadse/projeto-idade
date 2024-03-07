@@ -4,8 +4,8 @@ main {
     background-color: lightgreen;
     width: 600px;
     margin: auto;
+    min-height: 320px;
 }
 main form {
-    background-color: rgba(0, 128, 0, 0.404);
-    border-radius: 10px;
+    background-color: rgba(0, 128, 0, 0.404);   
 }
